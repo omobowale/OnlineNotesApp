@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	position:relative;
+	}
+
+body{
+	background:url("../images/bg7.jpg") center center no-repeat fixed;
+	background-size:cover;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+
+navbar {
+	position:relative;
+	cursor:
+	}
+	
+nav li{
+	padding-left:10px;
+	}
+	
+nav li.active{
+	background-color:#39C;
+	opacity:0.9;
+	}
+	
+.register{
+	width:50%;
+	text-align:left;
+	}
+	
+.register2{
+	width:50%;
+	text-align:right;
+	}
+	
+#forgotPasswordModal .modal-footer .float-left{
+	left:10px;
+	}
+	
+#loginModal .modal-footer .float-right{
+	float:right;
+	}
+	
+.jumbotron{
+	color:white;
+	text-align:center;
+	background-color:transparent;
+	padding-top:10%;
+	padding-bottom:20px;
+}
+
+.jumbotron h1{
+	font-size:3.5em;
+	
+	}
+
+.jumbotron p{
+	font-size:1.5em;
+	margin:0;
+	}
+
+#signUpButton:hover{
+	background-color:transparent;
+	}
+
+.buttons{
+	margin-top:80px;
+	}
+	
+#done, #allnotes{
+	display:none;
+	}
+
+.textarea{
+	padding-top:15px;
+	display:none;
+	}
+	
+textarea{
+	border-left:solid 10px purple;
+	width:100%;
+	padding:10px;
+	color:purple;
+	}
+
+
+	
+footer {
+	padding:10px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	}
+	
+.preview{
+		height: 30px;
+		border-radius:50%;
+		}
+		
+.picture{
+		height: 200px;
+		width: 100%;
+		border-radius: 50%;
+	}
+	
+.profilePicture{
+	text-align:center;
+	}
+
+@media (min-width: 768px){
+#toAdjust{
+	position:absolute;
+	top:13%;
+	right:0.5%;
+	cursor:pointer;
+	
+	}
+}
+
+@media (max-width: 411px){
+.profile-table h2{
+	font-size:28px;
+	}
+}
+
+@media (max-width: 366px){
+.profile-table h2{
+	font-size:24px;
+	}
+td{
+	font-size:14px;
+	}
+
+}
+
+@media (max-width: 316px){
+.profile-table h2{
+	font-size:20px;
+	}
+}
+
+@media (max-width: 275px){
+.profile-table h2{
+	font-size:18px;
+	}
+
+td{
+	font-size:12px;
+	}
+}
+
+@media (min-width: 203px) and (max-width: 250px){
+.profile-table h2{
+	font-size:11px;
+	}
+}
+	@media (min-width:223px) and (max-width: 370px){
+	.navbar-brand, .nav-link, .navbar-toggler-icon {
+		font-size:90%;
+		}
+	}
+	
+	@media (max-width:223px){
+	.navbar-brand, .nav-link, .navbar-toggler-icon {
+		font-size:85%;
+		}
+	
+	
+}

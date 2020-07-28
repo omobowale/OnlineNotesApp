@@ -1,0 +1,16 @@
+.contact-form, help-section {
+	border:1px solid #17A2B8;
+	border-radius:15px;
+	margin-top:50px;
+	color:#17A2B8;
+	}
+	
+.contact-form h2 {
+	color:#17A2B8;
+	}
+	
+.contact-form input, .contact-form textarea, .contact-form button{
+	color:#17A2B8;
+	border:1px solid #17A2B8;
+	
+	}
